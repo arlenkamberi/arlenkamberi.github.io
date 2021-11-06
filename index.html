@@ -1,0 +1,26 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: page
+---
+<main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+  
+
+    <div class="container">
+        <div class="row">
+        {% for post in site.posts %}
+            <div class="card col-md-2" style="width: 18rem;">
+                <a href="{{post.url}}" class="card-text-center">
+                    <img class="card-img-top" src="#" alt="Photo">
+                    <div class="card-body">
+                    <p class="card-title">{{post.title}}</p>
+                    <p class="card-text">{{post.meta}}</p>
+                    </div>
+                </a>
+            </div>
+        {% endfor %}
+        </div>
+  </div>
+</main>
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Tech Rank</title>
+  <link rel="stylesheet" href="/assets/css/default.css">
+  <link href="https://rsms.me/inter/inter.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<header>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="/">My Tech Rank</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item ">
+          <a class="nav-link" id="navbarDropdown" href="#">
+            About us</a>
+        </li>
+        
+        <li role="seperator" class="nav-seperator"></li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Contact us</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+</header>
+    <body>
+      <div class="main-post-page">
+        <div class="container-mid">
+          <section class="post">
+              <article role="article" id="post" class="post-content" itemprop="articleBody">
+                  {{ content }}
+              </article>
+          </section>
+        </div>
+      </div>
+    </body>
+</html>
