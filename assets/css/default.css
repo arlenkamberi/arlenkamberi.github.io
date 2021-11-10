@@ -1,5 +1,9 @@
 /*Start of index page*/
 
+.home {
+  background-color: gray !important;
+}
+
 .navbar {
   background-color: #F05E23 !important;
   position: fixed !important;
@@ -39,7 +43,8 @@
   bottom: 82px;
   border: #141A46 1px solid !important;
   border-radius: 1.25rem !important;
-  box-shadow: 5px 8px #141A46 !important;
+  box-shadow: -5px 8px #141A46 !important;
+  background-color: #f3b267 !important;
   
 }
 
